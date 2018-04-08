@@ -5,9 +5,14 @@
 
 
 class PIDController:
+
     def __init__(self, kp = 0.0, ki = 0.0, kd = 0.0, max_windup = 10):
-        #TODO
-        pass
+        self._kp = kp
+        self._ki = ki
+        self._kd = kd
+        self._max_windup = max_windup
+        
+        
     def reset(self):
         #TODO
         pass
